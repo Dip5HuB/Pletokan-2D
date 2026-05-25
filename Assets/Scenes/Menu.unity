@@ -16067,8 +16067,29 @@ MonoBehaviour:
     dataLevelBabak2: []
   nomorSlotTerpilih: 0
   folderPathAkun: 
+  notifMemoriPenuh:
+    m_TableReference:
+      m_TableCollectionName: GUID:9c2a351fb0a858748a346cfd2cfa4538
+    m_TableEntryReference:
+      m_KeyId: 419428411703296
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  notifGagalSimpan:
+    m_TableReference:
+      m_TableCollectionName: GUID:9c2a351fb0a858748a346cfd2cfa4538
+    m_TableEntryReference:
+      m_KeyId: 419489862451200
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
   kembaliDariGame: 0
   babakTerakhir: 1
+  references:
+    version: 2
+    RefIds: []
 --- !u!4 &1840674680
 Transform:
   m_ObjectHideFlags: 0

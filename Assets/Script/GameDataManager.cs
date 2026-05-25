@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
+using UnityEngine.Localization;
 
 public class GameDataManager : MonoBehaviour
 {
@@ -10,6 +11,10 @@ public class GameDataManager : MonoBehaviour
     public SaveSlotData slotAktif;
     public int nomorSlotTerpilih;
     public string folderPathAkun;
+
+    [Header("Kamus Notifikasi Error")]
+    public LocalizedString notifMemoriPenuh;
+    public LocalizedString notifGagalSimpan;
 
     // ---> MEMORI TRANSISE SCENE <---
     [HideInInspector] public bool kembaliDariGame = false;
@@ -71,6 +76,20 @@ public class GameDataManager : MonoBehaviour
 
     public void SimpanDataKeDisk()
     {
+        string drivePath = Path.GetPathRoot(Application.persistentDataPath);
+        System.IO.DriveInfo drive = new System.IO.DriveInfo(drivePath);
+        
+        if (drive.AvailableFreeSpace < 5 * 1024 * 1024) 
+        {
+            Debug.LogError("Error: Ruang penyimpanan penuh!");
+
+            if (LevelSelectionManager.instance != null && notifMemoriPenuh != null)
+            {
+                LevelSelectionManager.instance.MunculkanNotif(notifMemoriPenuh.GetLocalizedString());
+            }
+            return; 
+        }
+
         try {
             string fullPath = Path.Combine(folderPathAkun, "slot" + nomorSlotTerpilih + ".dat");
             BinaryFormatter bf = new BinaryFormatter();
@@ -79,7 +98,12 @@ public class GameDataManager : MonoBehaviour
             file.Close();
             Debug.Log("Progress Slot " + nomorSlotTerpilih + " Berhasil Diperbarui.");
         } catch (System.Exception e) {
-            Debug.LogError("Gagal menulis enkripsi biner: " + e.Message);
+            Debug.LogError("Status Error: Gagal menulis enkripsi biner. Detail: " + e.Message);
+
+            if (LevelSelectionManager.instance != null && notifGagalSimpan != null)
+            {
+                LevelSelectionManager.instance.MunculkanNotif(notifGagalSimpan.GetLocalizedString());
+            }
         }
     }
 

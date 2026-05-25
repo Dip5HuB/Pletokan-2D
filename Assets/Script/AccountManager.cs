@@ -176,6 +176,12 @@ public class AccountManager : MonoBehaviour
     {
         if (activeUser != null)
         {
+            string folderPath = Path.Combine(Application.persistentDataPath, activeUser.username);
+            if (Directory.Exists(folderPath))
+            {
+                Directory.Delete(folderPath, true); 
+            }
+            
             registry.allUsers.RemoveAll(x => x.username == activeUser.username);
             SaveRegistry();
             AccountUIManager.instance.ShowNotif(notifHapusAkunSukses.GetLocalizedString(), true);
