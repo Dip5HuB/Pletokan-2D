@@ -114,18 +114,16 @@ public class AudioManager : MonoBehaviour
             }
 
             bgmSource.clip = klip;
+            
+            // ---> Selalu pastikan musik standar di-loop secara otomatis <---
+            bgmSource.loop = true; 
+            
             bgmSource.Play();
         }
     }
 
     public void GantiMusikAkhir(bool isMenang)
     {
-        // ---> Matikan loop saat panel selesai muncul <---
-        if (bgmSource != null)
-        {
-            bgmSource.loop = false; 
-        }
-
         if (isMenang)
         {
             PutarMusik(musikMenang);
@@ -134,16 +132,17 @@ public class AudioManager : MonoBehaviour
         {
             PutarMusik(musikKalah);
         }
+
+        // ---> Matikan loop SETELAH PutarMusik dipanggil <---
+        if (bgmSource != null)
+        {
+            bgmSource.loop = false; 
+        }
     }
 
     public void ResetMusikKeAmbient()
     {
         // ---> Hidupkan kembali loop saat kembali bermain/ke menu utama <---
-        if (bgmSource != null)
-        {
-            bgmSource.loop = true; 
-        }
-
         if (musikGameplay != null)
         {
             PutarMusik(musikGameplay);
