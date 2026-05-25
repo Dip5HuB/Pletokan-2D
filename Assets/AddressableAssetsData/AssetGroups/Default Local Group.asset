@@ -17,16 +17,16 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: 56f6dbc38e1cac045a9e20d3e2ba7f84
   m_SerializeEntries:
-  - m_GUID: 0dd9e1561dbea8f499f5bd844770b77b
-    m_Address: Assets/Asset/Font/KosugiMaru-Regular SDF.asset
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 60190200701323245b28a15e25d0c5d6
     m_Address: Assets/Asset/Font/NotoSansJP-SemiBold SDF.asset
     m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 652018ea88acc5d45950bbc9c05b127a
+    m_Address: Assets/Asset/Font/ARLRDBD SDF.asset
+    m_ReadOnly: 0
     m_SerializedLabels:
-    - Locale-ja-JP
+    - Locale-id-ID
     FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 8f80ae3aad4268b4bb75fdb484695209, type: 2}

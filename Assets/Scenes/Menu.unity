@@ -273,7 +273,7 @@ MonoBehaviour:
     m_TableReference:
       m_TableCollectionName: GUID:9c2a351fb0a858748a346cfd2cfa4538
     m_TableEntryReference:
-      m_KeyId: 40527730638848
+      m_KeyId: 44102481412096
       m_Key: 
     m_FallbackState: 0
     m_WaitForCompletion: 0
@@ -1025,8 +1025,8 @@ MonoBehaviour:
   btnNext: {fileID: 2072534498}
   fontPerBahasa:
   - {fileID: 11400000, guid: d2e8bb714e9165b4b845bb5f4134da2c, type: 2}
-  - {fileID: 11400000, guid: 0dd9e1561dbea8f499f5bd844770b77b, type: 2}
   - {fileID: 11400000, guid: 652018ea88acc5d45950bbc9c05b127a, type: 2}
+  - {fileID: 11400000, guid: 60190200701323245b28a15e25d0c5d6, type: 2}
 --- !u!4 &133991610
 Transform:
   m_ObjectHideFlags: 0
@@ -8314,7 +8314,7 @@ MonoBehaviour:
     m_TableEntryReference:
       m_KeyId: 46691205840896
       m_Key: 
-    m_FallbackState: 0
+    m_FallbackState: 2
     m_WaitForCompletion: 0
     m_LocalVariables: []
   m_FormatArguments: []
