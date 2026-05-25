@@ -1,0 +1,197 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: KamusTextPletokan_id-ID
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: id-ID
+  m_SharedData: {fileID: 11400000, guid: 9c2a351fb0a858748a346cfd2cfa4538, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: 4282422413483311177
+  m_TableData:
+  - m_Id: 10568567947264
+    m_Localized: Masuk Akun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40186570145792
+    m_Localized: Nama akun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40527730638848
+    m_Localized: Sandi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42321949032448
+    m_Localized: Masuk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44102481412096
+    m_Localized: Buat Akun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44292131061760
+    m_Localized: Buat Akun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44512080363520
+    m_Localized: Akun Sudah Terdaftar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45182174953472
+    m_Localized: Berhasil Buat Akun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45334474326016
+    m_Localized: Login Berhasil
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45456851533824
+    m_Localized: Berhasil Keluar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45575307067392
+    m_Localized: Nama Atau Sandi Salah
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45814327869440
+    m_Localized: Keluar Akun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45895655424000
+    m_Localized: Hapus Akun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46095178465280
+    m_Localized: Mau Keluar Akun ?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46305233403904
+    m_Localized: Tidak
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46343552565248
+    m_Localized: Ya
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46408077737984
+    m_Localized: Hapus Akun ?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46691205840896
+    m_Localized: Volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46821694832640
+    m_Localized: Bahasa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46906356858880
+    m_Localized: Pilih Data Game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47022782349312
+    m_Localized: Lanjutkan Game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47077752897536
+    m_Localized: Game Baru
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49956718968832
+    m_Localized: Lanjutkan Game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50060112756736
+    m_Localized: Pilih Slot Baru
+    m_Metadata:
+      m_Items:
+      - rid: 4282422413483311177
+  - m_Id: 51221788164096
+    m_Localized: -Kosong-
+    m_Metadata:
+      m_Items: []
+  - m_Id: 51421147627520
+    m_Localized: Hapus Data
+    m_Metadata:
+      m_Items: []
+  - m_Id: 51535794733056
+    m_Localized: Timpa Data
+    m_Metadata:
+      m_Items: []
+  - m_Id: 51704980373504
+    m_Localized: Pilih Babak
+    m_Metadata:
+      m_Items: []
+  - m_Id: 51777680244736
+    m_Localized: Babak 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 51847788036096
+    m_Localized: Babak 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 51902993465344
+    m_Localized: Pilih Level
+    m_Metadata:
+      m_Items: []
+  - m_Id: 51974103695360
+    m_Localized: 'Total Skor: {0}'
+    m_Metadata:
+      m_Items:
+      - rid: 4282422413483311177
+  - m_Id: 52130060500992
+    m_Localized: Level ini belum bisa dimainkan!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53933309231104
+    m_Localized: Pengaturan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54201157484544
+    m_Localized: Ulangi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54235072626688
+    m_Localized: Keluar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132183364534272
+    m_Localized: B.Indonesia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 202696526987264
+    m_Localized: Hapus Akun Sukses
+    m_Metadata:
+      m_Items: []
+  - m_Id: 202394142834688
+    m_Localized: Input Kosong
+    m_Metadata:
+      m_Items: []
+  - m_Id: 202320427941888
+    m_Localized: Disk Penuh
+    m_Metadata:
+      m_Items: []
+  - m_Id: 346848203964416
+    m_Localized: Misi
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 4282422413483311177
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 
+        m_SharedEntries:
+        - id: 50060112756736
+        - id: 51974103695360

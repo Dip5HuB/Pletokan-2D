@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-Assets-Indonesian (Indonesia) (id-ID)
+  m_EditorClassIdentifier: 
+  m_GroupName: Localization-Assets-Indonesian (Indonesia) (id-ID)
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 198f48aabbd6470428b68e2ec955b55b
+  m_SerializeEntries:
+  - m_GUID: 68be7ddeb5a5855488b2b30b6d1813fc
+    m_Address: btn_keluar1
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-id-ID
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 97cc3f0c70bb5c44fa2e3e8c51862cda
+    m_Address: txt_informasi ID
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-id-ID
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d2e8bb714e9165b4b845bb5f4134da2c
+    m_Address: BRLNSDB SDF
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-id-ID
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: 8f80ae3aad4268b4bb75fdb484695209, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 6605de8c9d2260f46bd9e17223f36a95, type: 2}
+    - {fileID: 11400000, guid: ca9a5d0086a33a04c8afd55aee97fe9c, type: 2}

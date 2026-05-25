@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bf75844165b9634fa5d8fc64e933d3d, type: 3}
+  m_Name: Stat_Ramboo
+  m_EditorClassIdentifier: 
+  maxHealth: 115
+  moveSpeed: 2.3
+  attackRange: 9
+  retreatDistance: 2.5
+  minStopDistance: 7
+  maxStopDistance: 9
+  peluruMusuhPrefab: {fileID: 163795455593604810, guid: c5ed40c5c89638f43ae717a05077caeb, type: 3}
+  peluruSpeed: 10
+  shootInterval: 2
+  delayTembakan: 0.33
+  poinSkor: 15

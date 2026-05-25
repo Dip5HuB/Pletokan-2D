@@ -1,0 +1,192 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: KamusTextPletokan Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: KamusTextPletokan
+  m_TableCollectionNameGuidString: 9c2a351fb0a858748a346cfd2cfa4538
+  m_Entries:
+  - m_Id: 10568567947264
+    m_Key: Judul_MasukAkun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44292131061760
+    m_Key: Judul_BuatAkun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40186570145792
+    m_Key: InputPlace_NamaAkun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40527730638848
+    m_Key: InputPlace_SandiAkun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42321949032448
+    m_Key: btn_MasukAkun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44102481412096
+    m_Key: btn_BuatAkun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44512080363520
+    m_Key: Notif_AkunSudahTerdaftar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45182174953472
+    m_Key: Notif_BerhasilBuatAkun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45334474326016
+    m_Key: Notif_LoginBerhasil
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45456851533824
+    m_Key: Notif_BerhasilKeluar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45575307067392
+    m_Key: Notif_NamaAtauSandiSalah
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45814327869440
+    m_Key: btn_KeluarAkun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45895655424000
+    m_Key: btn_HapusAkun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46095178465280
+    m_Key: Judul_MauKeluarAkun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46305233403904
+    m_Key: btn_Tidak
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46343552565248
+    m_Key: btn_Ya
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46408077737984
+    m_Key: Judul_HapusAkun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46691205840896
+    m_Key: Judul_Volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46821694832640
+    m_Key: Judul_Bahasa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46906356858880
+    m_Key: Judul_PilihDataGame
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47022782349312
+    m_Key: btn_LanjutkanGame
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47077752897536
+    m_Key: btn_GameBaru
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49956718968832
+    m_Key: Judul_LanjutkanGame
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50060112756736
+    m_Key: Judul_PilihSlotBaru
+    m_Metadata:
+      m_Items: []
+  - m_Id: 51221788164096
+    m_Key: btn_Kosong
+    m_Metadata:
+      m_Items: []
+  - m_Id: 51421147627520
+    m_Key: Judul_HapusData
+    m_Metadata:
+      m_Items: []
+  - m_Id: 51535794733056
+    m_Key: Judul_TimpaData
+    m_Metadata:
+      m_Items: []
+  - m_Id: 51704980373504
+    m_Key: Judul_PilihBabak
+    m_Metadata:
+      m_Items: []
+  - m_Id: 51777680244736
+    m_Key: btn_Babak1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 51847788036096
+    m_Key: btn_Babak2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 51902993465344
+    m_Key: Judul_PilihLevel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 51974103695360
+    m_Key: Teks_TotalSkor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52130060500992
+    m_Key: Notif_LevelBelumTersedia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53933309231104
+    m_Key: Judul_Pengaturan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54201157484544
+    m_Key: btn_Ulangi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54235072626688
+    m_Key: btn_Keluar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132183364534272
+    m_Key: Teks_PilihBahasa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 202320427941888
+    m_Key: Notif_DiskPenuh
+    m_Metadata:
+      m_Items: []
+  - m_Id: 202394142834688
+    m_Key: Notif_InputKosong
+    m_Metadata:
+      m_Items: []
+  - m_Id: 202696526987264
+    m_Key: Notif_HapusAkunSukses
+    m_Metadata:
+      m_Items: []
+  - m_Id: 346848203964416
+    m_Key: Judul_Misi
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 4282422413483311162
+  references:
+    version: 2
+    RefIds:
+    - rid: 4282422413483311162
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1779587972773

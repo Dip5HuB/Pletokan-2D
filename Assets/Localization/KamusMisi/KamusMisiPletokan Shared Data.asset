@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: KamusMisiPletokan Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: KamusMisiPletokan
+  m_TableCollectionNameGuidString: 8d55102ef0f745040bb01a355f90b702
+  m_Entries:
+  - m_Id: 30983127040
+    m_Key: Batas_Penyembuh
+    m_Metadata:
+      m_Items: []
+  - m_Id: 158078926848
+    m_Key: Gunakan_Penyembuh
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278514171904
+    m_Key: Tanpa_Penyembuh
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337196679168
+    m_Key: Pemburu_Boss
+    m_Metadata:
+      m_Items: []
+  - m_Id: 365629865984
+    m_Key: Pemburu_Elit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 393333243904
+    m_Key: Pemburu_Normal15
+    m_Metadata:
+      m_Items: []
+  - m_Id: 562544050176
+    m_Key: Pemburu_Total
+    m_Metadata:
+      m_Items: []
+  - m_Id: 669788209152
+    m_Key: Pengejar Poin50
+    m_Metadata:
+      m_Items: []
+  - m_Id: 861316907008
+    m_Key: Pengejar Poin100
+    m_Metadata:
+      m_Items: []
+  - m_Id: 927180062720
+    m_Key: Gunakan_PeluruEmas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1011439435776
+    m_Key: Jangan_Menembak
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101784743936
+    m_Key: Hindari_Tembakan
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 4282422435058286598
+  references:
+    version: 2
+    RefIds:
+    - rid: 4282422435058286598
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1779671665872

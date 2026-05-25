@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-Asset-Tables-Japanese (Japan) (ja-JP)
+  m_EditorClassIdentifier: 
+  m_GroupName: Localization-Asset-Tables-Japanese (Japan) (ja-JP)
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 8b69500073d136540bc2879ba0c6ab6f
+  m_SerializeEntries:
+  - m_GUID: eef12f56275e8e24f90f40658c2bb776
+    m_Address: KamusFontPletokan_ja-JP
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ja-JP
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f4c2625bbebfd8c41806e67f5a43528d
+    m_Address: KamusSpritePletokan_ja-JP
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ja-JP
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: 8f80ae3aad4268b4bb75fdb484695209, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: dcaba21296b60b04c910b4caccfdd31c, type: 2}
+    - {fileID: 11400000, guid: be476f1d75043064da1d6ccb1a7d0e77, type: 2}

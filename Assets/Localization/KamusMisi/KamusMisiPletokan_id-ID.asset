@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: KamusMisiPletokan_id-ID
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: id-ID
+  m_SharedData: {fileID: 11400000, guid: 8d55102ef0f745040bb01a355f90b702, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 30983127040
+    m_Localized: Batas menggunakan Penyembuh
+    m_Metadata:
+      m_Items: []
+  - m_Id: 158078926848
+    m_Localized: Gunakan Penyembuh lebih dari 4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278514171904
+    m_Localized: Tanpa menggunakan Penyembuh
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337196679168
+    m_Localized: 'Kalahkan Boss '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 365629865984
+    m_Localized: Kalahkan 2 musuh tipe elit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 393333243904
+    m_Localized: Kalahkan 15 musuh tipe normal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 562544050176
+    m_Localized: Kalahkan 10 musuh
+    m_Metadata:
+      m_Items: []
+  - m_Id: 669788209152
+    m_Localized: Kumpulkan total 50 poin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 861316907008
+    m_Localized: 'Kumpulkan total 100 poin '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 927180062720
+    m_Localized: 'Gunakan Peluru Emas lebih dari 5x  '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1011439435776
+    m_Localized: Jangan menembak selama 5 detik
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101784743936
+    m_Localized: 'Hindari tembakan selama 10 detik '
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

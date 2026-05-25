@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8eb9f545c1b10e429ccc94199ada137, type: 3}
+  m_Name: 1 Gunakan_Penyembuh 4x
+  m_EditorClassIdentifier: 
+  namaMisi: Gunakan_Penyembuh
+  deskripsi: Gunakan Penyembuh lebih dari 4
+  tipeMisi: 8
+  kategoriMisi: 0
+  uiMulaiDariHijau: 0
+  targetNilai: 4

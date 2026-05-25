@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-String-Tables-Indonesian (Indonesia) (id-ID)
+  m_EditorClassIdentifier: 
+  m_GroupName: Localization-String-Tables-Indonesian (Indonesia) (id-ID)
+  m_Data:
+    m_SerializedData: []
+  m_GUID: f9fb1d6bc969cfd46b83d38c547456bb
+  m_SerializeEntries:
+  - m_GUID: 2653a0c9d85a9d747b1e7c6ffd9a0bf1
+    m_Address: KamusMisiPletokan_id-ID
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-id-ID
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3ed7fd94c9346884d8b787e9f5a51614
+    m_Address: KamusTextPletokan_id-ID
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-id-ID
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: 8f80ae3aad4268b4bb75fdb484695209, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: ee791cc9c6adc864ca5c856f67fa9af6, type: 2}
+    - {fileID: 11400000, guid: 0aedefab1cbca6e44b7a6c1ff73cc69a, type: 2}

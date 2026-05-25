@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-Assets-Shared
+  m_EditorClassIdentifier: 
+  m_GroupName: Localization-Assets-Shared
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 10815fa5762785549ad5d76ba251a268
+  m_SerializeEntries:
+  - m_GUID: 4678a88f3fe2dca4f8460fc28889aacc
+    m_Address: Assets/Localization/KamusFont/KamusFontPletokan Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5e4181980cbcd2345affbec3ce7b0918
+    m_Address: Assets/Localization/KamusSprite/KamusSpritePletokan Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5edbfaf6a3c03ea4095a9f98a2618176
+    m_Address: btn_keluar1 JP
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ja
+    - Locale-ja-JP
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8d55102ef0f745040bb01a355f90b702
+    m_Address: Assets/Localization/KamusMisi/KamusMisiPletokan Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9c2a351fb0a858748a346cfd2cfa4538
+    m_Address: Assets/Localization/KamusText/KamusTextPletokan Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a58986ab785226740b7da26a97310765
+    m_Address: txt_informasi JP
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ja
+    - Locale-ja-JP
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: 8f80ae3aad4268b4bb75fdb484695209, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 13fbbd58da5cb8448a5eae02493a0ce1, type: 2}
+    - {fileID: 11400000, guid: ae9a2a4ef11a2cc4e928a0b0e27e17ee, type: 2}
